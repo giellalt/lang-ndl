@@ -15,35 +15,15 @@
 ## You should have received a copy of the GNU General Public License
 ## along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-####### Source file defs: ########
+# List any local additions here:
+GT_FILTER_SRCS=
 
-# need to check way to list build targets like automake
-#! @param GT_REGEX_SRCS required, list all regular expressions used
-EXTRA_DIST=$(GT_REGEX_SRCS)
+# The common filter targets (don't change locally):
+GT_FILTER_TARGETS=remove-sub-forms.hfst
 
-####### Automake targets: ########
+# Add the target of local additions here:
+GT_FILTER_TARGETS+=
 
-# @param GT_REGEX_TARGETS required
-noinst_DATA=$(GT_REGEX_TARGETS)
-
-####### HFST build rules: ########
-
-.regex.hfst:
-	$(HFST_REGEXP2FST) $(HFSTFLAGS) -o $@ -i $<
-
-# foma needs a script to read regex file
-.regex.foma:
-	$(PRINTF) "read regex @\"$<\"\nsave stack $@" | $(XFST) $(XFSTFLAGS)
-
-####### Xerox build rules: #######
-
-# xfst needs a script to read regex file
-.regex.xfst:
-	$(PRINTF) "read regex @\"$<\";\nsave stack $@\nquit\n" |\
-		$(XFST) $(XFSTFLAGS)
-
-####### Other targets: ###########
-clean-local:
-	-rm -f *.hfst *.ol
+include $(top_srcdir)/am-shared/filters-include.am
 
 # vim: set ft=automake:
