@@ -116,5 +116,7 @@ LEXICON Root
 0   Pronouns    ;
 0   Numerals    ;
 0   Prefixes    ;
+0   Abbreviation    ;
+0   Acronym    ;
 
 ! vim: set ft=xfst-lexc:
