@@ -1,6 +1,6 @@
-!! =================================== !
-!! The Ndolo morphophonological/twolc rules file !
-!! =================================== !
+! =================================== !
+!! !!!The Ndolo morphophonological/twolc rules file 
+! =================================== !
 
 Alphabet
  a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å
@@ -19,7 +19,7 @@ Sets
  
 Rules
 
-"Deleting stem-final s in s genitive"
+"Deleting stem-final s in s genitive" !!= * @CODE@  
  s:0 <=> Vow s %>: _ ;
 
 !€ primus%>s
