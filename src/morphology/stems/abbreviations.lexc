@@ -1,0 +1,51 @@
+! ============================= !
+! File containing abbreviations !
+! ============================= !
+
+! Lexica for adding tags and periods
+! ----------------------------------
+
+! Splitting in 3 groups, because of the preprocessor
+! - - - - - - - - - - - - - - - - - - - - - - - - -
+
+LEXICON Abbreviation
+ITRAB ;
+TRNUMAB ;
+TRAB ;
+
+
+LEXICON ab
+
++ABBR:%. # ;
+
+! The abbreviation lexicon itself
+! -------------------------------
+
+! =============================================== !
+!            Intransitive abbreviations           !
+! =============================================== !
+
+LEXICON ITRAB
+
+Ltd ab ;
+
+! =============================================== !
+!    Abbreviations transitive in front of numeral !
+! =============================================== !
+
+
+LEXICON TRNUMAB
+
+nr ab ;
+
+! =============================================== !
+!            Transitive abbreviations           !
+! =============================================== !
+
+
+LEXICON TRAB
+
+mrs	 ab ;
+mr	 ab ;
+prof ab ;
+dr	 ab ;
