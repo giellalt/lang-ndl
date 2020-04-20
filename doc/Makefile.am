@@ -8,7 +8,7 @@
 # dir/filename.lexc => filename-dir.jspwiki
 
 JSP_PAGES=root-morphology.jspwiki  \
-		  ndl-phon-phonology.jspwiki
+		  phonology-morphology.jspwiki
 # clitics-morphology.jspwiki       \
 # compounding-morphology.jspwiki   \
 # abbreviations-stems.jspwiki      \
