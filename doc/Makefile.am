@@ -34,4 +34,5 @@ JSP_PAGES=root-morphology.jspwiki  \
 # nouns-affixes.jspwiki            \
 # propernouns-affixes.jspwiki      \
 # verbs-affixes.jspwiki
+
 include $(top_srcdir)/../giella-core/am-shared/doc-dir-include.am
