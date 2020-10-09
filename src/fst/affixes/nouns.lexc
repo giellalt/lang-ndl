@@ -2,14 +2,12 @@
 !  ---------------
 !! The Ndolo language nouns inflect in cases.
 
-LEXICON Cases
-+N+sg+nom:0     #   ;
-+N+pl+nom:i     #   ;
-+N+sg+loc:as    #   ;
-+N+pl+loc:ias   #   ;
-+N+sg+acc:at    #   ;
-+N+pl+acc:iat   #   ;
-#:0   Nouns   ;
+
+LEXICON Classmarkers
+Cl1+:mo cl1/2 ;
+Cl2+:ba cl1/2 ;
+Cl3+:mo cl3/4 ;
+Cl4+:mi cl3/4 ;
 
 ! vim: set ft=xfst-lexc:
 
