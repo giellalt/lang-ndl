@@ -1,8 +1,15 @@
 !! Nouns
 !  -----
-!! Nouns in the Ndolo language are things.
+!! Nouns in the Ndolo language
+!! (here taken from en wp's article on Lingala, for testing purposes)
 
 LEXICON Nouns
-noun    Cases   ;
+Classmarkers ;
+
+LEXICON cl1/2 
+mopési:pési # ;
+
+LEXICON cl3/4 
+mokíla:kíla # ;
 
 ! vim: set ft=xfst-lexc:
