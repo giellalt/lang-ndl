@@ -605,32 +605,33 @@ These were the set types.
 
 
 
-Nouns
-Nouns in the Ndolo language
-(here taken from en wp's article on Lingala, for testing purposes)
+Verb inflection
+The Ndolo language verbs inflect in persons.
+
+
+
+Proper noun inflection
+The Ndolo language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+Adjective inflection
+The Ndolo language adjectives compare.
+
+
+
+Noun inflection
+The Ndolo language nouns inflect in cases.
 
 
 
 
-Numerals
-Numerals in the Ndolo language are numbers.
 
-
-Verbs
-Verbs in the Ndolo language are actions.
-
-
-Prefixes
-Prefixes in the Ndolo language are bound to beginning of other words.
+# Symbol affixes
 
 
 
-Adjectives
-Adjectives in the Ndolo language describe things.
-
-
-Pronouns
-Pronouns in the Ndolo language are references to things.
 
 
 # The Ndolo morphophonological/twolc rules file 
@@ -655,32 +656,31 @@ Pronouns in the Ndolo language are references to things.
 * examples:*
 
 * examples:*
-
-# Symbol affixes
-
-
+Verbs
+Verbs in the Ndolo language are actions.
 
 
-
-Noun inflection
-The Ndolo language nouns inflect in cases.
-
+Pronouns
+Pronouns in the Ndolo language are references to things.
 
 
-
-Proper noun inflection
-The Ndolo language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
+Numerals
+Numerals in the Ndolo language are numbers.
 
 
+Adjectives
+Adjectives in the Ndolo language describe things.
 
-Verb inflection
-The Ndolo language verbs inflect in persons.
+
+Prefixes
+Prefixes in the Ndolo language are bound to beginning of other words.
 
 
 
-Adjective inflection
-The Ndolo language adjectives compare.
+Nouns
+Nouns in the Ndolo language
+(here taken from en wp's article on Lingala, for testing purposes)
+
 
 
 
@@ -768,22 +768,6 @@ word classes, or optionally from prefixes:
 
 
 
-We describe here how abbreviations are in Ndolo are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-
-
-
 
 
 
@@ -834,6 +818,22 @@ For example:
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
+
+
+
+
+We describe here how abbreviations are in Ndolo are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
 
 
       [ L A N G U A G E ]  G R A M M A R   C H E C K E R
