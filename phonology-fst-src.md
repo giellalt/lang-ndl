@@ -6,7 +6,7 @@
 
 
 
- * "Deleting stem-final s in s genitive"   
+* "Deleting stem-final s in s genitive"   
 
 * *primus%>s*
 * *primus00*
