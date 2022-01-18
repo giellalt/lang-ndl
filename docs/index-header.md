@@ -6,6 +6,7 @@
 [![Build status](https://github.com/giellalt/lang-ndl/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-ndl/actions)
 
 This page documents the work on the **Ndolo language model**. 
+It was made just to test this infrastructure, and contains a couple of words only
 
 # Project documentation
 
