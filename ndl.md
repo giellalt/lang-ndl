@@ -606,7 +606,30 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-ndl/blob/main/../src/cg3/functions.cg3)</small>
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-ndl/blob/main/../src/cg3/functions.cg3)</small># The Ndolo morphophonological/twolc rules file 
+
+
+
+
+
+
+
+* "Deleting stem-final s in s genitive"   
+
+* *primus%>s*
+* *primus00*
+
+
+* examples:*
+
+* examples:*
+
+
+* examples:*
+
+* examples:*
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-ndl/blob/main/../src/fst/phonology.twolc)</small>
 Morphology
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF UNDEFINED LANGUAGE.
 
@@ -696,62 +719,48 @@ word classes, or optionally from prefixes:
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-ndl/blob/main/../src/fst/affixes/symbols.lexc)</small>Noun inflection
-The Ndolo language nouns inflect in cases.
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-ndl/blob/main/../src/fst/affixes/nouns.lexc)</small>Adjective inflection
-The Ndolo language adjectives compare.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-ndl/blob/main/../src/fst/affixes/adjectives.lexc)</small>Verb inflection
-The Ndolo language verbs inflect in persons.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-ndl/blob/main/../src/fst/affixes/verbs.lexc)</small>Proper noun inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-ndl/blob/main/../src/fst/affixes/symbols.lexc)</small>Proper noun inflection
 The Ndolo language proper nouns inflect in the same cases as regular
 nouns, but with a colon (':') as separator.
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-ndl/blob/main/../src/fst/affixes/propernouns.lexc)</small># The Ndolo morphophonological/twolc rules file 
-
-
-
-
-
-
-
-* "Deleting stem-final s in s genitive"   
-
-* *primus%>s*
-* *primus00*
-
-
-* examples:*
-
-* examples:*
-
-
-* examples:*
-
-* examples:*
-* * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-ndl/blob/main/../src/fst/phonology.twolc)</small>Prefixes
-Prefixes in the Ndolo language are bound to beginning of other words.
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-ndl/blob/main/../src/fst/affixes/propernouns.lexc)</small>Verb inflection
+The Ndolo language verbs inflect in persons.
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-ndl/blob/main/../src/fst/stems/prefixes.lexc)</small>Nouns
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-ndl/blob/main/../src/fst/affixes/verbs.lexc)</small>Adjective inflection
+The Ndolo language adjectives compare.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-ndl/blob/main/../src/fst/affixes/adjectives.lexc)</small>Noun inflection
+The Ndolo language nouns inflect in cases.
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-ndl/blob/main/../src/fst/affixes/nouns.lexc)</small>Verbs
+Verbs in the Ndolo language are actions.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-ndl/blob/main/../src/fst/stems/verbs.lexc)</small>Adjectives
+Adjectives in the Ndolo language describe things.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-ndl/blob/main/../src/fst/stems/adjectives.lexc)</small>Numerals
+Numerals in the Ndolo language are numbers.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-ndl/blob/main/../src/fst/stems/numerals.lexc)</small>Nouns
 Nouns in the Ndolo language
 (here taken from en wp's article on Lingala, for testing purposes)
 
@@ -759,27 +768,18 @@ Nouns in the Ndolo language
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-ndl/blob/main/../src/fst/stems/nouns.lexc)</small>Adjectives
-Adjectives in the Ndolo language describe things.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-ndl/blob/main/../src/fst/stems/adjectives.lexc)</small>Pronouns
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-ndl/blob/main/../src/fst/stems/nouns.lexc)</small>Pronouns
 Pronouns in the Ndolo language are references to things.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-ndl/blob/main/../src/fst/stems/pronouns.lexc)</small>Verbs
-Verbs in the Ndolo language are actions.
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-ndl/blob/main/../src/fst/stems/pronouns.lexc)</small>Prefixes
+Prefixes in the Ndolo language are bound to beginning of other words.
 
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-ndl/blob/main/../src/fst/stems/verbs.lexc)</small>Numerals
-Numerals in the Ndolo language are numbers.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-ndl/blob/main/../src/fst/stems/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-ndl/blob/main/../src/fst/stems/prefixes.lexc)</small>
 
 
 We describe here how abbreviations are in Ndolo are read out, e.g.
