@@ -223,13 +223,13 @@ The Ndolo language verbs inflect in persons.
 * *primus%>s*
 * *primus00*
 
-* examples:*
+*  examples:*
 
-* examples:*
+*  examples:*
 
-* examples:*
+*  examples:*
 
-* examples:*
+*  examples:*
 
 * * *
 
