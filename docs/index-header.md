@@ -4,7 +4,7 @@
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-ndl%2Fgh-pages%2Flemmacount.json)
 [![License](https://img.shields.io/github/license/giellalt/lang-ndl)](https://github.com/giellalt/lang-ndl/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-ndl)](https://github.com/giellalt/lang-ndl/issues)
-[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-ndl/main/badge.svg)](https://github.com/giellalt/lang-ndl/actions)
+[![Build Status](https://builds.giellalt.org/api/badge/lang-ndl?label=CI)](https://builds.giellalt.org/pipelines/lang-ndl/builds/latest)
 
 This page documents the work on the **Ndolo language model**. 
 It was made just to test this infrastructure, and contains a couple of words only
